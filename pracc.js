@@ -82,7 +82,20 @@ for (let i = 1; i < ourTeam[0].members.length; i++) {
 }
 
 console.log("The youngest member is our team: " + youngestMemberName);
-//----------------The oldest member----------------
 
+
+
+//----------------The oldest member----------------
+let oldestMemberName = ourTeam[0].members[0].name;
+let oldestMember = ourTeam[0].members[0].birthday.year;
+
+for (let i = 1; i < ourTeam[0].members.length; i++) {
+    if (ourTeam[0].members[i].birthday.year < youngestMember) {
+        youngestMemberName = ourTeam[0].members[i].name;
+        youngest = ourTeam[0].members[i].birthday.year;      
+    }
+}
+
+console.log("The oldest member is our team: " + youngestMemberName);
 
 //----------------From the same location?----------------
