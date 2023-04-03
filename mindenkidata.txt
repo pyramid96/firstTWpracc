@@ -62,6 +62,7 @@ let favMovies =[
 		genres: ["Drama", "History", "Thriller"],
 	},
 ];
+music genres: rock n roll, electro
 
 
 //Orosz Péter
@@ -128,6 +129,12 @@ isNewerThan2000:false,
 age:35,
 characters:["Gurgeh","Mahrwin-Skel","Imshao","Azad"]
 }]
+ let myfavAlbums={
+    artist: "Pendulum",
+    title: "Hold Your Colors",
+    year: 2005,
+    genres: ["Drum and Bass", "Dubstep"],
+    sale: 225000, 
 
 
 //David
@@ -203,6 +210,15 @@ const favoriteBooks = {
                 "Crafford Starrick: templomos nagymester",
                 "Jayadeep Mir: más néven szellem Henry, Bharat Singh"],
 }
+bestSellingAlbums[8] = {
+    artist: "Kowalsky meg a Vega",
+    title: "Árnyék és fény",
+    year: 2019,
+    genres: ["Alternative/Indie, Rock"],
+    sale: 40000000,
+    iLikeIt8: true
+};
+
 
 
 
@@ -279,3 +295,12 @@ let movie04 = {
 
 let favMovies = [movie01, movie02, movie03, movie04];
 noelFav = [favoriteBooks, favMovies]
+
+let noelAlbum = {
+artist: "Noisia",
+title: "Split the Atom",
+year: 2010,
+genres: ["drum and bass", "electro-house", "neurofunk", "IDM"],
+sale: 350000,
+
+};
