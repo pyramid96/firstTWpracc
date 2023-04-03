@@ -1,6 +1,5 @@
-<<<<<<< Updated upstream
-// Defining ourtTeam object
-=======
+//adding noeldata
+
 let noelFavBooks = [
     {
         "title": "Dune",
@@ -31,8 +30,6 @@ let noelFavBooks = [
         "stars": ["Johnny Depp", "Benicio del Toro", "Tobey Maguire"],
         "genres": ["adventure", "comedy", "drama"]
     },
-    
-    
     {
         "title": "The Big Lebowski",
         "year": 1998,
@@ -70,76 +67,209 @@ let noelFavBooks = [
         "genres": ["drama", "comedy"]
     }];
 
-//Norbi:
-let favoriteBooks = [
-	{
-		title: "The Lord of the Rings: The Two Towers",
-		author: "J.R.R. Tolkien",
-		year: 1955,
-		isNewerThan2000: false,
-		characters: ["Gimli", "Gandalf", "Aragorn", "Sam", "Frodo"],
-	},
-	{
-		title: "1984",
-		author: "George Orwell",
-		year: 1949,
-		isNewerThan2000: false,
-		characters: ["WinstonSmith", "Julia", "OBrien", "Syme"],
-	},
-];
+// adding Norbidata
 
-let NorbifavMovies =[
-	{
-		title: "Pulp Fiction",
-		year: 1994,
-		age: 2023 - 1994,
-		rating: 8.9,
-		description: "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
-		stars: ["John Travolta", "Uma Thurman", "Samuel L. Jackson", "Bruce Willis", "Tim Roth"],
-		writers: ["Quenting Tarantino", "Roger Avary"],
-		directors: ["Quentin Tarantino"],
-		genres: ["Crime, Drama"],
+let norbiFavoriteBooks = [
+        {
+            title: "The Lord of the Rings: The Two Towers",
+            author: "J.R.R. Tolkien",
+            year: 1955,
+            isNewerThan2000: false,
+            characters: ["Gimli", "Gandalf", "Aragorn", "Sam", "Frodo"],
+        },
+        {
+            title: "1984",
+            author: "George Orwell",
+            year: 1949,
+            isNewerThan2000: false,
+            characters: ["WinstonSmith", "Julia", "OBrien", "Syme"],
+        },
+    ];
+    
+    let norbiFavMovies =[
+        {
+            title: "Pulp Fiction",
+            year: 1994,
+            age: 2023 - 1994,
+            rating: 8.9,
+            description: "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+            stars: ["John Travolta", "Uma Thurman", "Samuel L. Jackson", "Bruce Willis", "Tim Roth"],
+            writers: ["Quenting Tarantino", "Roger Avary"],
+            directors: ["Quentin Tarantino"],
+            genres: ["Crime, Drama"],
+        },
+        {
+            title: "Reservoir Dogs",
+            year: 1992,
+            age: 2023 - 1992,
+            rating: 8.3,
+            description: "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
+            stars: ["Harvey Keitel", "Tim Roth", "Michael Madsen"],
+            writers: ["Quentin Tarantino", "Roger Avary"],
+            directors: ["Quentin Tarantino"],
+            genres: ["Crime", "Thriller"],
+        },
+        {
+            title: "The Lord of the Rings",
+            year: 2001,
+            age: 2023 - 2001,
+            rating: 8.8,
+            description: "Set in the fictional world of Middle-earth, the films follow the hobbit Frodo Baggins as he and the Fellowship embark on a quest to destroy the One Ring, to ensure the destruction of its maker, the Dark Lord Sauron.",
+            stars: ["Elijah Wood", "Ian McKellen", "Orlando Bloom"],
+            writers: ["J.R.R. Tolkien", "Fran Walsh", "Philippa Boyens"],
+            directors: ["Peter Jackson"],
+            genres: ["Action", "Adventure", "Drama"],
+        },
+        {
+            title: "Chernobyl",
+            year: 2019,
+            age: 2023 - 2019,
+            rating: 9.4,
+            description: "Chernobyl is a 2019 historical drama television miniseries that revolves around the Chernobyl disaster of 1986 and the cleanup efforts that followed.",
+            stars: ["Jessie Buckley", "Jared Harris", "Stellan Skarsgård"],
+            writers: ["Craig Mazin"],
+            directors: ["Johan Renck"],
+            genres: ["Drama", "History", "Thriller"],
+        },
+    ];
+
+// Adding Peti data
+
+let petiFavouriteMovies=[{
+    title:"Prometheus",
+    year:2012,
+    rating:7.0,
+    description:"Following clues to the origin of mankind, a team finds a structure on a distant moon, but they soon realize they are not alone.",
+    directors:["Ridley Scott"],
+    writers:["Jon Spaihts","Damon Lindelof","Dan O'Bannon"],
+    stars:["Michael Fassbender","Logan Marshall-Green","Noomi"],
+    genres:["Sci-fi","Adventure","Mystery"],
+    },	
+    {
+    title:"Aliens",
+    year:1986,
+    rating:8.2,
+    description:"Decades after surviving the Nostromo incident, Ellen Ripley is sent out to re-establish contact with a terraforming colony but finds herself battling the Alien Queen and her offspring.",
+    directors:["James Cameron"],
+    writers:["James Cameron","David Giler","Walter Hill"],
+    stars:["Sigourney Weaver","Michael Biehn","Carrie Henn"],
+    genres:["Sci-fi","Action","Adventure"],
+    },	
+    {
+    title:"Starship Troopers",
+    year:1997,
+    rating:7.4,
+    description:"Humans in a fascist, militaristic future wage war with giant alien bugs.",
+    directors:["Paul Verhoeven"],
+    writers:["Edward Neumeier","Robert A. Heinlein"],
+    stars:["Casper Van Dien","Denise Richards","Dina Meyer"],
+    genres:["Sci-fi","Action","Adventure"],
+    },
+    {
+    title:"Ender's Game",
+    year:2013,
+    rating:6.6,
+    description:"Young Ender Wiggin is recruited by the International Military to lead the fight against the Formics, an insectoid alien race who had previously tried to invade Earth and had inflicted heavy losses on humankind.",
+    directors:["Gavin Hood"],
+    writers:["Gavin HoodOrson", "Scott Card"],
+    stars:["Harrison Ford","Asa Butterfield","Hailee Steinfeld"],
+    genres:["Action","Adventure","Sci-fi"],
+    },
+    {
+    title:"Hyperion",
+    author:"Dan Simmons",
+    year:1989,
+    isNewerThan2000:false,
+    age:34,
+    characters:["Consul","Kassad","Priest","Keats"]
+    }]
+let petiFavouriteBooks =[{
+    title:"Hyperion",
+    author:"Dan Simmons",
+    year:1989,
+    isNewerThan2000:false,
+    age:34,
+    characters:["Consul","Kassad","Priest","Keats"]
+    },
+    {title:"The Player Of Games",
+    author:"Ian Banks",
+    year:1988,
+    isNewerThan2000:false,
+    age:35,
+    characters:["Gurgeh","Mahrwin-Skel","Imshao","Azad"]
+    }];
+
+// Adding David data
+
+var davidFavMovies = [{
+
+	title: "Iron Man",
+	year: 2008,
+	rating: 7.9,
+	description: "Iron build his suit",
+	directors:["Jon Favreau"],
+	writers: ["Stan Lee"],
+	stars: ["Robert Downey Jr.", "Gwyneth Paltrow", "Terrence Howard"],
+	genres: ["sci-fi ","action movie"]
 	},
 	{
-		title: "Reservoir Dogs",
-		year: 1992,
-		age: 2023 - 1992,
-		rating: 8.3,
-		description: "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
-		stars: ["Harvey Keitel", "Tim Roth", "Michael Madsen"],
-		writers: ["Quentin Tarantino", "Roger Avary"],
-		directors: ["Quentin Tarantino"],
-		genres: ["Crime", "Thriller"],
+	title: "Iron Man 2",
+	year: 2010,
+	rating: 7.4,
+	description: "Iron man upgrades his own suit",
+	directors:["Jon Favreau"],
+	writers: ["Stan Lee"],
+	stars: ["Robert Downey Jr.", "Gwyneth Paltrow", "Terrence Howard"],
+	genres: ["sci-fi ", "action movie"]
 	},
 	{
-		title: "The Lord of the Rings",
-		year: 2001,
-		age: 2023 - 2001,
-		rating: 8.8,
-		description: "Set in the fictional world of Middle-earth, the films follow the hobbit Frodo Baggins as he and the Fellowship embark on a quest to destroy the One Ring, to ensure the destruction of its maker, the Dark Lord Sauron.",
-		stars: ["Elijah Wood", "Ian McKellen", "Orlando Bloom"],
-		writers: ["J.R.R. Tolkien", "Fran Walsh", "Philippa Boyens"],
-		directors: ["Peter Jackson"],
-		genres: ["Action", "Adventure", "Drama"],
+    title: "Guardians of tha Galaxy",
+	year: 2014,
+	rating: 8,
+	description: "Some 'asshole' defend the galaxy",
+	directors: ["James Gunn"],
+	writers: ["James Gunn"],
+	stars: ["Chris Pratt", "Vin Diesel"],
+	genres: ["sci-fi ", "action movie", "comedy"]
 	},
 	{
-		title: "Chernobyl",
-		year: 2019,
-		age: 2023 - 2019,
-		rating: 9.4,
-		description: "Chernobyl is a 2019 historical drama television miniseries that revolves around the Chernobyl disaster of 1986 and the cleanup efforts that followed.",
-		stars: ["Jessie Buckley", "Jared Harris", "Stellan Skarsgård"],
-		writers: ["Craig Mazin"],
-		directors: ["Johan Renck"],
-		genres: ["Drama", "History", "Thriller"],
-	},
-];
+
+	title: "Guardians of tha Galaxy vol. 2",
+	year: 2017,
+	rating: 7.8,
+	description: "StarLord meet his father, who is a God",
+	directors: ["James Gunn"],
+	writers: ["James Gunn", "Dan Abnett"],
+	stars: ["Chris Pratt", "David Bautista"],
+	genres: "sci-fi " + "action movie " + "comedy",},
+	{
+}];
+
+const davidFavoriteBooks = [{
+    title: "Assassin's Creed: Fekete lobogó,",
+    author: "Oliver Bowden,",
+    year: 2014,
+    isNewerThan2000: true, 
+    age: 9,
+    characters: ["Edward Kenway","Jennifer Kenway", "Hanley", "Matthew Hauge"],
+    
+    title: "Assassin's Creed: Alvilág",
+    author: "Oliver Bowden,",
+    year: 2020,
+    isNewerThan2000: true, 
+    age: 3,
+    characters: ["Evie Frye", "Jacob Frye", "Crafford Starrick", "Jayadeep Mir"]
+}];
 
 
->>>>>>> Stashed changes
 
+
+
+
+
+// defining the ourTeam object
 let ourTeam ={
-    "name": "randomName",
+    "name": "Team01",
     "members": [
         {
             "name": "Fődi Noel",
@@ -183,13 +313,13 @@ let ourTeam ={
         {
             "name": "Dávid Szokolóczi",
             "birthday": {
-                "year": 2000,
-                "month": 10,
-                "day": 21
+                "year": 2001,
+                "month": 6,
+                "day": 29
             },
             "location": {
                 "country": "Hungary",
-                "city": "Balassagyarmat"
+                "city": "Szeged"
             },
             "coding level": 28
         }
@@ -198,40 +328,23 @@ let ourTeam ={
 
 
 };
-console.log(ourTeam["members"][1]["coding level"])
 
-
-// Adding the 'favourites' key to the member objects with 2 keys with the array values
-ourTeam["members"][0]["favourites"] = {
-    "favMovies": ["Fear and Loathing in Las Vegas", "Trainspotting", "Life of Brian", "The Big Lebowski"],
-    "favBooks": ["Dune", "The Silence of the Lambs"]
+for (const member of ourTeam["members"]){
+    if (member.name === "Fődi Noel") {
+        member.FavBooks = noelFavBooks;
+        member.FavMovies = noelFavMovies
+    }
+    else if (member.name === "Norbert Richter"){
+        member.FavBooks = norbiFavoriteBooks;
+        member.FavMovies = norbiFavMovies
+    }
+    else if (member.name === "Orosz Péter"){
+        member.FavBooks = petiFavouriteBooks;
+        member.FavMovies = petiFavouriteMovies
+    }
+    else {
+        member.FavBooks = davidFavoriteBooks;
+        member.FavMovies = davidFavMovies
+    }
 };
 
-ourTeam["members"][1]["favourites"] = {
-    "favMovies": ["Fear and Loathing in Las Vegas", "Trainspotting", "Life of Brian", "The Big Lebowski"],
-    "favBooks": ["Dune", "The Silence of the Lambs"]
-};
-
-ourTeam["members"][2]["favourites"] = {
-    "favMovies": ["Fear and Loathing in Las Vegas", "Trainspotting", "Life of Brian", "The Big Lebowski"],
-    "favBooks": ["Dune", "The Silence of the Lambs"]
-};
-ourTeam["members"][3]["favourites"] = {
-    "favMovies": ["Fear and Loathing in Las Vegas", "Trainspotting", "Life of Brian", "The Big Lebowski"],
-    "favBooks": ["Dune", "The Silence of the Lambs"]
-};
-
-
-
-
-console.log(ourTeam["members"][0]["favourites"]["favBooks"])
-
-// Configuring the coding level key key
-ourTeam["members"][0]["coding level"] = {
-    "level": 12,
-    "seniority": ""
-}
-if (ourTeam["members"][0]["coding level"] < 50){
-    ourTeam["members"][0]["coding level"]["seniority"] = "junior"
-}
-else if (ourTeam["members"][0]["coding level"] >= 50 && )
