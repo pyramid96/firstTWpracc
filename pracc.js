@@ -30,17 +30,17 @@ let ourTeam ={
             "coding level": 22
         },
         {
-            "name": "Dániel József Kiss",
+            "name": "Orosz Péter",
             "birthday": {
-                "year": 1997,
-                "month": 4,
-                "day": 28
+                "year": 1988,
+                "month": 5,
+                "day": 9
             },
             "location": {
                 "country": "Hungary",
-                "city": "Budapest"
+                "city": "Érd"
             },
-            "coding level": 19
+            "coding level": 20
         },
         {
             "name": "Dávid Szokolóczi",
