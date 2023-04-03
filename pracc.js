@@ -3,84 +3,85 @@
 let ourTeam = 
 [
     {
-        name: "randomName",
+        name: "Team01",
         members:
         [
             {
-                "name": "Fődi Noel",
-                "birthday": 
+                name: "Fődi Noel",
+                birthday: 
                     {
                         year: 1996,
-                        "month": 2,
-                        "day": 25
+                        month: 2,
+                        day: 25
                     },
-                "location":
+                location:
                     {
-                        "country": "Hungary",
-                        "city": "Szeged"
+                        country: "Hungary",
+                        city: "Szeged"
                     },
-                "coding level": 12
+                codingLevel: 12
             },
             {
-                "name": "Norbert Richter",
-                "birthday": 
+                name: "Norbert Richter",
+                birthday: 
                     {
                         year: 1994,
-                        "month": 12,
-                        "day": 27
+                        month: 12,
+                        day: 27
                     },
-                "location": 
+                location: 
                     {
-                        "country": "Hungary",
-                        "city": "Szentendre"
+                        country: "Hungary",
+                        city: "Szentendre"
                     },
-                "coding level": 15
+                codingLevel: 15
             },
             {
-                "name": "Orosz Péter",
-                "birthday": 
+                name: "Orosz Péter",
+                birthday: 
                     {
                         year: 1988,
-                        "month": 5,
-                        "day": 9
+                        month: 5,
+                        day: 9
                     },
-                "location": 
+                location: 
                     {
-                        "country": "Hungary",
-                        "city": "Érd"
+                        country: "Hungary",
+                        city: "Érd"
                     },
-                "coding level": 20
+                codingLevel: 20
             },
             {
-                "name": "Dávid Szokolóczi",
-                "birthday": 
+                name: "Dávid Szokolóczi",
+                birthday: 
                     {
                         year: 2000,
-                        "month": 10,
-                        "day": 21
+                        month: 10,
+                        day: 21
                     },
-                "location": 
+                location: 
                     {
-                        "country": "Hungary",
-                        "city": "Balassagyarmat"
+                        country: "Hungary",
+                        city: "Balassagyarmat"
                     },
-                "coding level": 28
+                codingLevel: 28
             }
-
         ]
     }
 ]
 
 //----------------The youngest member----------------
-const youngestMember = ourTeam.members.birthday[0];
+let youngestMemberName = ourTeam[0].members[0].name;
+let youngestMember = ourTeam[0].members[0].birthday.year;
 
-for(const member of ourTeam.members.birthday){
-    if (member.year > youngestMember.year) {
-        youngestMember = member;
+for (let i = 1; i < ourTeam[0].members.length; i++) {
+    if (ourTeam[0].members[i].birthday.year > youngestMember) {
+        youngestMemberName = ourTeam[0].members[i].name;
+        youngest = ourTeam[0].members[i].birthday.year;      
     }
 }
-console.log(youngestMember);
 
+console.log("The youngest member is our team: " + youngestMemberName);
 //----------------The oldest member----------------
 
 
