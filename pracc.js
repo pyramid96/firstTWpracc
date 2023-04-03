@@ -1,4 +1,8 @@
 // Defining ourtTeam object
+import {noelFav} from "C://Users//fodno//Desktop//projects//kukás//firstTWpracc//noeldata";
+console.log(noelFav[0][0]["title"])
+
+
 
 let ourTeam ={
     "name": "randomName",

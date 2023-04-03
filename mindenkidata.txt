@@ -206,9 +206,10 @@ const favoriteBooks = {
 
 
 
-// NOEL
+// Noel
 
-let favoriteBook = {
+let favBooks = [
+{
     "title": "Dune",
     "author": "Frank Herbert",
     "year": 1965,
@@ -216,19 +217,18 @@ let favoriteBook = {
     "age": 58,
     "characters": ["Paul Atreides", "Lady Jessica", "Stilgar", "Vladimir Harkonnen"]
 
-};
-let favoriteBook2 = {
+},
+{
     "title": "The Silence of the Lambs",
     "author": "Thomas Harris",
     "year": 1988,
     "isNewerThan2000": isNewerThan2000,
     "age": 35,
     "characters": ["Clarice Starling", "Hannibal Lecter", "Jack Crawford", "Buffalo Bill"]
-};
+}];
 
-let favoriteBooks = [favoriteBook, favoriteBook2]
 
-let movie01 = {
+let favMovies = [{
 	"title": "Fear and Loathing in Las Vegas",
 	"year": 1998,
 	"rating": 7.5,
@@ -237,10 +237,10 @@ let movie01 = {
 	"writers": ["Hunter S. Thompson", "Terry Gilliam", "Tony Grisoni"],
 	"stars": ["Johnny Depp", "Benicio del Toro", "Tobey Maguire"],
 	"genres": ["adventure", "comedy", "drama"]
-};
+},
 
 
-let movie02 = {
+{
 	"title": "The Big Lebowski",
 	"year": 1998,
 	"rating": 8.1,
@@ -251,9 +251,9 @@ let movie02 = {
 	"stars": ["Jeff Bridges", "John Goodman", "Julianne Moore"],
 	"genres": ["comedy", "crime"]
 
-};
+},
 
-let movie03 = {
+{
 	"title": "Life of Brian",
 	"year": 1979,
 	"rating": 8.0,
@@ -263,9 +263,9 @@ let movie03 = {
 	"writers":["Graham Chapman", "John Cleese", "Terry Gilliam"],
 	"stars": ["Graham Chapman", "John Cleese", "Michael Palin"],
 	"genres": ["comedy", "drama"]
-};
+},
 
-let movie04 = {
+{
 	"title": "Trainspotting",
 	"year": 1996,
 	"rating": 8.1,
@@ -275,7 +275,5 @@ let movie04 = {
 	"writers":["Irvine Welsh", "John Hodge"],
 	"stars": ["Ewan McGregor", "Ewen Brenmer", "Jonny Lee Miller"],
 	"genres": ["drama", "comedy"]
-};
+}]
 
-let favMovies = [movie01, movie02, movie03, movie04];
-noelFav = [favoriteBooks, favMovies]
