@@ -281,7 +281,7 @@ let movie04 = {
 let favMovies = [movie01, movie02, movie03, movie04];
 noelFav = [favoriteBooks, favMovies]
 
-let noelalbum = {
+let noelAlbum = {
 artist: "Noisia",
 title: "Split the Atom",
 year: 2010,
