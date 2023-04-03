@@ -204,6 +204,15 @@ const favoriteBooks = {
                 "Crafford Starrick: templomos nagymester",
                 "Jayadeep Mir: más néven szellem Henry, Bharat Singh"],
 }
+bestSellingAlbums[8] = {
+    artist: "Kowalsky meg a Vega",
+    title: "Árnyék és fény",
+    year: 2019,
+    genres: ["Alternative/Indie, Rock"],
+    sale: 40000000,
+    iLikeIt8: true
+};
+
 
 
 
