@@ -62,7 +62,9 @@ let favMovies =[
 		genres: ["Drama", "History", "Thriller"],
 	},
 ];
-#Orosz Péter
+
+
+//Orosz Péter
 let favouriteMovies=[{
 title:"Prometheus",
 year:2012,
@@ -126,3 +128,78 @@ isNewerThan2000:false,
 age:35,
 characters:["Gurgeh","Mahrwin-Skel","Imshao","Azad"]
 }]
+
+
+//David
+//films
+var favMovies = [{
+	//main datas
+	title: "Iron Man",
+	year: 2008,
+	rating: 7.9,
+	description: "Iron build his suit",
+	//writer datas
+	directors:"Jon Favreau",
+	writers: "Stan Lee",
+	stars: 4,
+	genres: "sci-fi " + "action movie",},
+	{
+
+	//main datas
+	title1: "Iron Man 2",
+	year1: 2010,
+	rating1: 7.4,
+	description1: "Iron man upgrade his own suit",
+	//writer datas
+	directors1:"Jon Favreau",
+	writers1: "Stan Lee",
+	stars1: 3.5,
+	genres1: "sci-fi " + "action movie",},
+	{
+
+	//main datas
+	title2: "Guardians of tha Galaxy",
+	year2: 2014,
+	rating2: 10,
+	description2: "Some 'ashole' defend the galaxy",
+	//writer datas
+	directors2: "James Gunn",
+	writers2: "James Gunn",
+	stars2:4,
+	genres2: "sci-fi " + "action movie " + "comedy",},
+	{
+
+	//main datas
+	title3: "Guardians of tha Galaxy vol. 2",
+	year3: 2017,
+	rating3: 7.8,
+	description3: "StarLord meet his father, who is a God",
+	//writer datas
+	directors3: "James Gunn",
+	writers3: "James Gunn",
+	stars3: 4,
+	genres3: "sci-fi " + "action movie " + "comedy",},
+	{
+}]
+//books
+const favoriteBooks = {
+    title: "Assassin's Creed: Fekete lobogó, ",
+    author: "Oliver Bowden, ",
+    year:2014,
+    isNewerThan2000: Boolean(2000>2014), //year is not accepted the boolean in object
+    age: 2023-2014,
+    characters: ["Edward Kenway: orgyilkos",
+                  "Jennifer Kenway: Edward és Caroline lánya",
+                  "Hanley: fedélzetmester",
+                  "Matthew Hauge: Caroline Scott kikosarazott kérője"],
+    
+    title: "Assassin's Creed: Alvilág",
+    author: "Oliver Bowden, ",
+    year:2020,
+    isNewerThan2000: Boolean(2000>2014), //year is not accepted the boolean in object
+    age: 2023-2014,
+    characters: ["Evie Frye: Eathan Frye lánya",
+                "Jacob Frye: Eathan Frye fia, Bástyák vezére",
+                "Crafford Starrick: templomos nagymester",
+                "Jayadeep Mir: más néven szellem Henry, Bharat Singh"],
+}
