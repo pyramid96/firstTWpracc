@@ -67,6 +67,15 @@ let noelFavBooks = [
         "genres": ["drama", "comedy"]
     }];
 
+    let noelAlbum = [{
+        artist: "Noisia",
+        title: "Split the Atom",
+        year: 2010,
+        genres: ["drum and bass", "electro-house", "neurofunk", "IDM"],
+        sale: 350000,
+    }];
+        
+
 // adding Norbidata
 
 let norbiFavoriteBooks = [
@@ -132,6 +141,15 @@ let norbiFavoriteBooks = [
             genres: ["Drama", "History", "Thriller"],
         },
     ];
+
+    let norbiAlbum = [{
+        artist: "Black Sun Empire",
+        title: "The Rat/B'Negative",
+        year: 2002,
+        genres: ["drum and bass", "electro"],
+        sale: "not available",
+    }];
+        
 
 // Adding Peti data
 
@@ -199,6 +217,14 @@ let petiFavouriteBooks =[{
     characters:["Gurgeh","Mahrwin-Skel","Imshao","Azad"]
     }];
 
+let petiAlbum = [{
+        artist: "Pendulum",
+        title: "Hold Your Colors",
+        year: 2005,
+        genres: ["Drum and Bass", "Dubstep"],
+        sale: 225000, 
+    }];
+
 // Adding David data
 
 var davidFavMovies = [{
@@ -261,6 +287,14 @@ const davidFavoriteBooks = [{
     characters: ["Evie Frye", "Jacob Frye", "Crafford Starrick", "Jayadeep Mir"]
 }];
 
+let davidAlbum = [{
+    artist: "Kowalsky meg a Vega",
+    title: "Árnyék és fény",
+    year: 2019,
+    genres: ["Alternative/Indie, Rock"],
+    sale: 40000000,
+    iLikeIt8: true
+}];
 
 
 
