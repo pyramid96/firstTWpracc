@@ -17,17 +17,17 @@ let ourTeam ={
             "coding level": 12
         },
         {
-            "name": "Babos Bence",
+            "name": "Norbert Richter",
             "birthday": {
                 "year": 1994,
-                "month": 6,
-                "day": 23
+                "month": 12,
+                "day": 27
             },
             "location": {
                 "country": "Hungary",
-                "city": "Elfelejtettem"
+                "city": "Szentendre"
             },
-            "coding level": 22
+            "coding level": 15
         },
         {
             "name": "Dániel József Kiss",
