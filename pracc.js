@@ -282,7 +282,7 @@ let ourTeam ={
                 "country": "Hungary",
                 "city": "Szeged"
             },
-            "coding level": 12
+            "codingLevel": 12
         },
         {
             "name": "Norbert Richter",
@@ -295,7 +295,7 @@ let ourTeam ={
                 "country": "Hungary",
                 "city": "Szentendre"
             },
-            "coding level": 15
+            "codingLevel": 15
         },
         {
             "name": "Orosz Péter",
@@ -308,7 +308,7 @@ let ourTeam ={
                 "country": "Hungary",
                 "city": "Érd"
             },
-            "coding level": 20
+            "codingLevel": 20
         },
         {
             "name": "Dávid Szokolóczi",
@@ -321,7 +321,7 @@ let ourTeam ={
                 "country": "Hungary",
                 "city": "Szeged"
             },
-            "coding level": 28
+            "codingLevel": 28
         }
 
     ]
@@ -347,4 +347,34 @@ for (const member of ourTeam["members"]){
         member.FavMovies = davidFavMovies
     }
 };
+
+//Modifying the codeLevel key value at each member
+for (const member of ourTeam["members"]){
+    let codeLevel = member["codingLevel"];
+
+    let seniority = "";
+    if (codeLevel < 50){
+        seniority = "junior"
+    }
+    else if (50 <= codeLevel && codeLevel < 75){
+        seniority = "medior"
+    }
+    else {
+        seniority = "senior"
+    }
+    member["codingLevel"] = {
+        "level": codeLevel,
+        "seniority": seniority
+    }
+};
+
+// Checking the 'level' integer value after the modification
+/*for (member of ourTeam["members"]){
+    console.log("Code level is on: " + member["codingLevel"]["level"])
+};*/
+
+//Checking the 'seniority' string value after the modification
+/*for (member of ourTeam["members"]){
+    console.log("seniority is on: " + member["codingLevel"]["seniority"])
+};*/
 
