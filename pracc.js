@@ -45,13 +45,13 @@ let ourTeam ={
         {
             "name": "Dávid Szokolóczi",
             "birthday": {
-                "year": 2001,
-                "month": 6,
-                "day": 29
+                "year": 2000,
+                "month": 10,
+                "day": 21
             },
             "location": {
                 "country": "Hungary",
-                "city": "Szeged"
+                "city": "Balassagyarmat"
             },
             "coding level": 28
         }
