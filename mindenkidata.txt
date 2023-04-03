@@ -208,7 +208,7 @@ const favoriteBooks = {
 
 // NOEL
 
-et favoriteBook = {
+let favoriteBook = {
     "title": "Dune",
     "author": "Frank Herbert",
     "year": 1965,
