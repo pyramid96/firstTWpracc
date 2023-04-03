@@ -5,14 +5,16 @@ let noelFavBooks = [
         "title": "Dune",
         "author": "Frank Herbert",
         "year": 1965,
-        "characters": ["Paul Atreides", "Lady Jessica", "Stilgar", "Vladimir Harkonnen"]
+        "characters": ["Paul Atreides", "Lady Jessica", "Stilgar", "Vladimir Harkonnen"],
+        review: "",
     
     },
     {
         "title": "The Silence of the Lambs",
         "author": "Thomas Harris",
         "year": 1988,
-        "characters": ["Clarice Starling", "Hannibal Lecter", "Jack Crawford", "Buffalo Bill"]
+        "characters": ["Clarice Starling", "Hannibal Lecter", "Jack Crawford", "Buffalo Bill"],
+        review: "",
     }];
     
     
@@ -23,7 +25,8 @@ let noelFavBooks = [
         "directors": ["Terry Gilliam", "Terry Gilliam"],
         "writers": ["Hunter S. Thompson", "Terry Gilliam", "Tony Grisoni"],
         "stars": ["Johnny Depp", "Benicio del Toro", "Tobey Maguire"],
-        "genres": ["adventure", "comedy", "drama"]
+        "genres": ["adventure", "comedy", "drama"],
+        review: "",
     },
     {
         "title": "The Big Lebowski",
@@ -32,7 +35,8 @@ let noelFavBooks = [
         "directors": ["Joel Coen", "Ethan Coen"],
         "writers": ["Joel Coen", "Ethan Coen"],
         "stars": ["Jeff Bridges", "John Goodman", "Julianne Moore"],
-        "genres": ["comedy", "crime"]
+        "genres": ["comedy", "crime"],
+        review: "",
     
     },
     
@@ -43,7 +47,8 @@ let noelFavBooks = [
         "directors": ["Terry Jones", "Terry Jones"],
         "writers":["Graham Chapman", "John Cleese", "Terry Gilliam"],
         "stars": ["Graham Chapman", "John Cleese", "Michael Palin"],
-        "genres": ["comedy", "drama"]
+        "genres": ["comedy", "drama"],
+        review: "",
     },
     
     {
@@ -53,7 +58,8 @@ let noelFavBooks = [
         "directors": ["Danny Boyle", "Danny Boyle"],
         "writers":["Irvine Welsh", "John Hodge"],
         "stars": ["Ewan McGregor", "Ewen Brenmer", "Jonny Lee Miller"],
-        "genres": ["drama", "comedy"]
+        "genres": ["drama", "comedy"],
+        review: "",
     }];
 
     let noelAlbum = [{
@@ -62,6 +68,7 @@ let noelFavBooks = [
         year: 2010,
         genres: ["drum and bass", "electro-house", "neurofunk", "IDM"],
         sale: 350000,
+        review: "",
     }];
         
 
@@ -73,12 +80,14 @@ let norbiFavoriteBooks = [
             author: "J.R.R. Tolkien",
             year: 1955,
             characters: ["Gimli", "Gandalf", "Aragorn", "Sam", "Frodo"],
+            review: "",
         },
         {
             title: "1984",
             author: "George Orwell",
             year: 1949,
             characters: ["WinstonSmith", "Julia", "OBrien", "Syme"],
+            review: "",
         },
     ];
     
@@ -92,6 +101,7 @@ let norbiFavoriteBooks = [
             writers: ["Quenting Tarantino", "Roger Avary"],
             directors: ["Quentin Tarantino"],
             genres: ["Crime, Drama"],
+            review: "",
         },
         {
             title: "Reservoir Dogs",
@@ -102,6 +112,7 @@ let norbiFavoriteBooks = [
             writers: ["Quentin Tarantino", "Roger Avary"],
             directors: ["Quentin Tarantino"],
             genres: ["Crime", "Thriller"],
+            review: "",
         },
         {
             title: "The Lord of the Rings",
@@ -112,6 +123,7 @@ let norbiFavoriteBooks = [
             writers: ["J.R.R. Tolkien", "Fran Walsh", "Philippa Boyens"],
             directors: ["Peter Jackson"],
             genres: ["Action", "Adventure", "Drama"],
+            review: "",
         },
         {
             title: "Chernobyl",
@@ -122,6 +134,7 @@ let norbiFavoriteBooks = [
             writers: ["Craig Mazin"],
             directors: ["Johan Renck"],
             genres: ["Drama", "History", "Thriller"],
+            review: "",
         },
     ];
 
@@ -131,6 +144,7 @@ let norbiFavoriteBooks = [
         year: 2002,
         genres: ["drum and bass", "electro"],
         sale: "not available",
+        review: "",
     }];
         
 
@@ -144,6 +158,7 @@ let petiFavouriteMovies=[{
     writers:["Jon Spaihts","Damon Lindelof","Dan O'Bannon"],
     stars:["Michael Fassbender","Logan Marshall-Green","Noomi"],
     genres:["Sci-fi","Adventure","Mystery"],
+    review: "",
     },	
     {
     title:"Aliens",
@@ -153,6 +168,7 @@ let petiFavouriteMovies=[{
     writers:["James Cameron","David Giler","Walter Hill"],
     stars:["Sigourney Weaver","Michael Biehn","Carrie Henn"],
     genres:["Sci-fi","Action","Adventure"],
+    review: "",
     },	
     {
     title:"Starship Troopers",
@@ -162,6 +178,7 @@ let petiFavouriteMovies=[{
     writers:["Edward Neumeier","Robert A. Heinlein"],
     stars:["Casper Van Dien","Denise Richards","Dina Meyer"],
     genres:["Sci-fi","Action","Adventure"],
+    review: "",
     },
     {
     title:"Ender's Game",
@@ -171,25 +188,29 @@ let petiFavouriteMovies=[{
     writers:["Gavin HoodOrson", "Scott Card"],
     stars:["Harrison Ford","Asa Butterfield","Hailee Steinfeld"],
     genres:["Action","Adventure","Sci-fi"],
+    review: "",
     },
     {
     title:"Hyperion",
     author:"Dan Simmons",
     year:1989,
     age:34,
-    characters:["Consul","Kassad","Priest","Keats"]
+    characters:["Consul","Kassad","Priest","Keats"],
+    review: "",
     }]
 let petiFavouriteBooks =[{
     title:"Hyperion",
     author:"Dan Simmons",
     year:1989,
-    characters:["Consul","Kassad","Priest","Keats"]
+    characters:["Consul","Kassad","Priest","Keats"],
+    review: "",
     },
 
     {title:"The Player Of Games",
     author:"Ian Banks",
     year:1988,
-    characters:["Gurgeh","Mahrwin-Skel","Imshao","Azad"]
+    characters:["Gurgeh","Mahrwin-Skel","Imshao","Azad"],
+    review: "",
     }];
 
 let petiAlbum = [{
@@ -197,7 +218,8 @@ let petiAlbum = [{
         title: "Hold Your Colors",
         year: 2005,
         genres: ["Drum and Bass", "Dubstep"],
-        sale: 225000, 
+        sale: 225000,
+        review: "",
     }];
 
 // Adding David data
@@ -210,7 +232,8 @@ var davidFavMovies = [{
 	directors:["Jon Favreau"],
 	writers: ["Stan Lee"],
 	stars: ["Robert Downey Jr.", "Gwyneth Paltrow", "Terrence Howard"],
-	genres: ["sci-fi ","action movie"]
+	genres: ["sci-fi ","action movie"],
+    review: "",
 	},
 	{
 	title: "Iron Man 2",
@@ -219,7 +242,8 @@ var davidFavMovies = [{
 	directors:["Jon Favreau"],
 	writers: ["Stan Lee"],
 	stars: ["Robert Downey Jr.", "Gwyneth Paltrow", "Terrence Howard"],
-	genres: ["sci-fi ", "action movie"]
+	genres: ["sci-fi ", "action movie"],
+    review: "",
 	},
 	{
     title: "Guardians of tha Galaxy",
@@ -228,7 +252,8 @@ var davidFavMovies = [{
 	directors: ["James Gunn"],
 	writers: ["James Gunn"],
 	stars: ["Chris Pratt", "Vin Diesel"],
-	genres: ["sci-fi ", "action movie", "comedy"]
+	genres: ["sci-fi ", "action movie", "comedy"],
+    review: "",
 	},
 	{
 
@@ -238,8 +263,9 @@ var davidFavMovies = [{
 	directors: ["James Gunn"],
 	writers: ["James Gunn", "Dan Abnett"],
 	stars: ["Chris Pratt", "David Bautista"],
-	genres: "sci-fi " + "action movie " + "comedy",},
-	{
+	genres: "sci-fi " + "action movie " + "comedy",
+    review: "",
+	
 }];
 
 const davidFavoriteBooks = [{
@@ -251,7 +277,8 @@ const davidFavoriteBooks = [{
     title: "Assassin's Creed: Alvilág",
     author: "Oliver Bowden,",
     year: 2020,
-    characters: ["Evie Frye", "Jacob Frye", "Crafford Starrick", "Jayadeep Mir"]
+    characters: ["Evie Frye", "Jacob Frye", "Crafford Starrick", "Jayadeep Mir"],
+    review: "",
 }];
 
 let davidAlbum = [{
@@ -260,7 +287,8 @@ let davidAlbum = [{
     year: 2019,
     genres: ["Alternative/Indie, Rock"],
     sale: 40000000,
-    iLikeIt8: true
+    iLikeIt8: true,
+    review: "",
 }];
 
 
