@@ -201,7 +201,7 @@ let petiFavouriteBooks =[{
 
 // Adding David data
 
-var davidFavMovies = [{
+var davidFavouriteMovies = [{
 
 	title: "Iron Man",
 	year: 2008,
@@ -331,21 +331,30 @@ let ourTeam ={
 
 for (const member of ourTeam["members"]){
     if (member.name === "Fődi Noel") {
-        member.FavBooks = noelFavBooks;
-        member.FavMovies = noelFavMovies
+        member["favourites"] = {
+            "favBooks": noelFavBooks,
+            "favMovies": noelFavMovies
+        }
+
     }
     else if (member.name === "Norbert Richter"){
-        member.FavBooks = norbiFavoriteBooks;
-        member.FavMovies = norbiFavMovies
+        member["favourites"] = {
+            "favBooks": norbiFavoriteBooks,
+            "favMovies": norbiFavMovies
+        }
     }
     else if (member.name === "Orosz Péter"){
-        member.FavBooks = petiFavouriteBooks;
-        member.FavMovies = petiFavouriteMovies
+        member["favourites"] = {
+            "favBooks": petiFavouriteBooks,
+            "favMovies": petiFavouriteMovies
+        }
     }
     else {
-        member.FavBooks = davidFavoriteBooks;
-        member.FavMovies = davidFavMovies
+        member["favourites"] = {
+            "favBooks": davidFavoriteBooks,
+            "favMovies": davidFavouriteMovies
     }
+}
 };
 
 //Modifying the codeLevel key value at each member
@@ -368,6 +377,11 @@ for (const member of ourTeam["members"]){
     }
 };
 
+console.log(ourTeam["members"][0]["favourites"]["favMovies"][1]["genres"])
 // Checking the 'level' integer value after the modification
 /*for (member of ourTeam["members"]){
     console.log("The coding level of " + member["name"] + ": " + member["codingLevel"]["level"] + "and is a " + member["codingLevel"]["seniority"])n*/
+
+
+
+//
