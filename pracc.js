@@ -81,7 +81,7 @@ for (let i = 1; i < ourTeam[0].members.length; i++) {
     }
 }
 
-console.log("The youngest member is our team: " + youngestMemberName);
+console.log("The youngest member is our team: " + youngestMemberName + "\n");
 
 
 
@@ -90,12 +90,28 @@ let oldestMemberName = ourTeam[0].members[0].name;
 let oldestMember = ourTeam[0].members[0].birthday.year;
 
 for (let i = 1; i < ourTeam[0].members.length; i++) {
-    if (ourTeam[0].members[i].birthday.year < youngestMember) {
-        youngestMemberName = ourTeam[0].members[i].name;
+    if (ourTeam[0].members[i].birthday.year < oldestMember) {
+        oldestMemberName = ourTeam[0].members[i].name;
         youngest = ourTeam[0].members[i].birthday.year;      
     }
 }
 
-console.log("The oldest member is our team: " + youngestMemberName);
+console.log("The oldest member is our team: " + oldestMemberName + "\n");
+
+
+
 
 //----------------From the same location?----------------
+let comesOneCity = ourTeam[0].members[0].location.city;
+let comesOneCityName = ourTeam[0].members[0].name;
+
+for (let i = 0; i < ourTeam[0].members.length; i++) {
+    // if (ourTeam[0].members[i].location.city === comesOneCity) {
+    //     city = ourTeam[0].members[i].location.city;
+    //     memberName = ourTeam[0].members[i].name;
+    //     console.log("This people: " + memberName + " comes to this city: " + city + "\n");
+    // }
+    city = ourTeam[0].members[i].location.city;
+        memberName = ourTeam[0].members[i].name;
+        console.log("This people: " + memberName + " comes to this city: " + city + "\n");
+}
