@@ -370,11 +370,4 @@ for (const member of ourTeam["members"]){
 
 // Checking the 'level' integer value after the modification
 /*for (member of ourTeam["members"]){
-    console.log("Code level is on: " + member["codingLevel"]["level"])
-};*/
-
-//Checking the 'seniority' string value after the modification
-/*for (member of ourTeam["members"]){
-    console.log("seniority is on: " + member["codingLevel"]["seniority"])
-};*/
-
+    console.log("The coding level of " + member["name"] + ": " + member["codingLevel"]["level"] + "and is a " + member["codingLevel"]["seniority"])n*/
