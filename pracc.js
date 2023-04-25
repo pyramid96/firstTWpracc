@@ -4,7 +4,7 @@ let noelFavBooks = [
     {
         "title": "Dune",
         "author": "Frank Herbert",
-        "year": 1965,
+        "year": 1945678,
         "isNewerThan2000": false,
         "age": 58,
         "characters": ["Paul Atreides", "Lady Jessica", "Stilgar", "Vladimir Harkonnen"]
