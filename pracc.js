@@ -1,10 +1,10 @@
 //adding noeldata
-
-let noelFavBooks = [
+// ez egy teszt
+let noelFavBook = [
     {
         "title": "Dune",
         "author": "Frank Herbert",
-        "year": 1965,
+        "motnh": 5,
         "isNewerThan2000": false,
         "age": 58,
         "characters": ["Paul Atreides", "Lady Jessica", "Stilgar", "Vladimir Harkonnen"]
